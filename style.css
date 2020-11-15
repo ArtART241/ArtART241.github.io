@@ -6,3 +6,11 @@
     background-color: rgba(34, 31, 31, 0.704);
     color: rgb(255, 255, 255);
 }
+.card{
+    background-color: rgba(0, 0, 0, 0.384);
+}
+
+#test{
+    width: 300px;
+    margin-left: calc(50% - 150px);
+}
