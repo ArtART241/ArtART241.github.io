@@ -177,7 +177,8 @@
                             fries that were too thin to eat with a fork, hoping to annoy the extremely fussy customer.
                             The customer,
                             surprisingly enough, was happy – and potato chips were invented!</p>
-                        <button class="btn btn-warning" aria-expanded="false" aria-controls="txt2" data-toggle="collapse" data-target="#txt2">Ingedients</button>
+                        <button class="btn btn-warning" aria-expanded="false" aria-controls="txt2"
+                            data-toggle="collapse" data-target="#txt2">Ingedients</button>
                         <p class="collapse" id="txt2">
                             Мука пшеничная просеянная - 500 г + для работы с тестом
                             Вода горячая (70-75 градусов) - 250 мл
@@ -216,7 +217,8 @@
                             fries that were too thin to eat with a fork, hoping to annoy the extremely fussy customer.
                             The customer,
                             surprisingly enough, was happy – and potato chips were invented!</p>
-                        <button class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" data-html="true" title="
+                        <button class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" data-html="true"
+                            title="
                         Для теста:
                         Яйцо - 1 шт.
                         Мука - 2-3 стакана
@@ -246,7 +248,8 @@
                             fries that were too thin to eat with a fork, hoping to annoy the extremely fussy customer.
                             The customer,
                             surprisingly enough, was happy – and potato chips were invented!</p>
-                        <button class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" data-html="true" title="
+                        <button class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" data-html="true"
+                            title="
                         500 гр куриного фарша;
                         1 картофелина
                         1 луковица
@@ -277,7 +280,8 @@
                             fries that were too thin to eat with a fork, hoping to annoy the extremely fussy customer.
                             The customer,
                             surprisingly enough, was happy – and potato chips were invented!</p>
-                        <button class="btn btn-warning" title="Ingredients" data-toggle="popover" data-placement="bottom" data-content="Яйца - 24 шт. (по 3 на человека)
+                        <button class="btn btn-warning" title="Ingredients" data-toggle="popover"
+                            data-placement="bottom" data-content="Яйца - 24 шт. (по 3 на человека)
                         Сливочное масло - 80 г + 80 г
                         Соль
                         Перец">Ingedients</button>
@@ -298,7 +302,8 @@
                             fries that were too thin to eat with a fork, hoping to annoy the extremely fussy customer.
                             The customer,
                             surprisingly enough, was happy – and potato chips were invented!</p>
-                        <button class="btn btn-warning" data-toggle="popover" data-placement="bottom" title="Ingredients" data-content="Яйца – 3 шт.
+                        <button class="btn btn-warning" data-toggle="popover" data-placement="bottom"
+                            title="Ingredients" data-content="Яйца – 3 шт.
                         Вода – 500 мл
                         Мука – 180 г (12 ст. ложек с горкой)
                         Масло растительное – для жарки
@@ -336,7 +341,58 @@
     </div>
 
 
-    
+
+    <div class="row justify-content-center my-5">
+        <form class="form-inline">
+            <select class="custom-select">
+                <option value="" selected>Choose website</option>
+                <option value="https://egor-gerasimchik.github.io">Егор</option>
+                <option value="https://zloikon.github.io">ZloйKonь</option>
+                <option value="https://lazh22.github.io">Владимир</option>
+                <option value="https://vaso1943.github.io">Vaschka</option>
+                <option value="https://svetpru.github.io">Светик</option>
+                <option value="https://formit21.github.io">formit</option>
+                <option value="https://sashapozharin.github.io">Александр Пожарин</option>
+                <option value="https://ucmit.github.io">Ulan</option>
+                <option value="https://hhamster39.github.io">Альбина</option>
+            </select>
+
+            <button type="button" class="btn btn-danger ml-2" id="btnSelect">send request</button>
+        </form>
+    </div>
+
+
+
+    <div class="modal fade" id="msgBox" data-keyboard="false" data-backdrop="static"
+    tabindex="-1" aria-hidden="true" aria-labelledby="msgLabel">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title" id="msgLabel">Message from </h4>
+                </div>
+
+                <div class="modal-body">
+                  
+                </div>
+
+                <div class="modal-footer">
+                    <button class="btn btn-warning" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <button class="btn btn-primary" data-toggle="modal" data-target="#msgBox">Call window</button>
+    </div>
+
+    <div id="answer">
+        <h1>Hello, folks!</h1>
+        <p>That's a message!</p>
+        <img src="https://artart241.github.io/img/AGLogo.png" alt="myImage">
+    </div>
 
 
 
@@ -344,9 +400,12 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
+    </script> -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
     </script>

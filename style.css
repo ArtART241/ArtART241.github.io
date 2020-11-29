@@ -14,3 +14,10 @@
     width: 300px;
     margin-left: calc(50% - 150px);
 }
+
+#answer{
+    visibility: hidden;
+    position: absolute;
+    top: 0%;
+    user-select: none;
+}
